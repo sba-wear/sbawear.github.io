@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SBA-Wear</title>
+  <style>
+    body { margin: 0; font-family: -apple-system, Arial, sans-serif; background: #111; color: #fff; text-align: center; }
+    header { padding: 20px; background: #000; }
+    .logo { width: 180px; margin: 20px auto; }
+    nav { background: #1a1a1a; padding: 15px; }
+    nav a { color: #ffd700; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://picsum.photos/1200/600?random=1') center/cover;
+      padding: 100px 20px; color: white;
+    }
+    .products {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 20px;
+      padding: 40px 20px; max-width: 1200px; margin: 0 auto;
+    }
+    .product { background: #1a1a1a; padding: 15px; border-radius: 12px; }
+    .product img { width: 100%; border-radius: 8px; }
+    button {
+      background: #ffd700; color: #000; border: none; padding: 14px 28px;
+      font-weight: bold; border-radius: 8px; font-size: 1.1em; margin: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://via.placeholder.com/300x100/ffd700/000?text=SBA-WEAR" alt="SBA-Wear" class="logo">
+  </header>
+  
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Shop</a>
+    <a href="#">Looks</a>
+    <a href="#">Profile</a>
+  </nav>
+
+  <div class="hero">
+    <h1 style="font-size: 2.8em; margin: 0;">Elevate Your Style</h1>
+    <p style="font-size: 1.3em;">Premium Sportswear</p>
+    <button onclick="alert('Shop link coming soon!')">Shop Now</button>
+  </div>
+
+  <h2>New Arrivals</h2>
+  <div class="products">
+    <div class="product">
+      <img src="https://picsum.photos/300/300?random=2" alt="Hoodie">
+      <h3>Signature Hoodie</h3>
+      <p>$320</p>
+    </div>
+    <div class="product">
+      <img src="https://picsum.photos/300/300?random=3" alt="Trainers">
+      <h3>Kinetic Trainers</h3>
+      <p>$280</p>
+    </div>
+  </div>
+
+  <footer style="padding: 40px; background: #000; margin-top: 40px;">
+    <p>&copy; 2026 SBA-Wear • All Rights Reserved</p>
+  </footer>
+</body>
+</html>
